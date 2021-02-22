@@ -4,8 +4,8 @@ This package provides a clock driver for Microchip PolarFire SoC baed on <https:
 
 # Building packages
 
-1. Prepare an RISC-V developer environmenit with qemu. For details, refer to <https://fedoraproject.org/wiki/Architectures/RISC-V/Installing>.
-2. Clone the repositliy.
+1. Prepare an RISC-V developer environment with `qemu-system-riscv64`. For details, refer to <https://fedoraproject.org/wiki/Architectures/RISC-V/Installing>.
+2. Clone the repository.
 3. Run `rpmbuild`.
     ~~~
     $ cd kmod-clk-mpfs
